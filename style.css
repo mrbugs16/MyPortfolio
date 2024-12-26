@@ -7,10 +7,14 @@ body {
     }
 
     header {
-        background-color: #007acc ;
-        color: #fff;
-        padding: 20px;
-        text-align: center;
+        background-image: url('header-bg.jpg'); /* Ruta a la imagen */
+    background-size: cover; /* Ajusta la imagen para cubrir todo el área */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    color: white; /* Asegúrate de que el texto sea visible sobre la imagen */
+    text-align: center; /* Centra el texto */
+    padding: 50px 20px; /* Espaciado interno */
+    font-family: Arial, sans-serif; /* Personaliza la fuente */
     }
 
     .foto-perfil {
