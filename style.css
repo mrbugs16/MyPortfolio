@@ -1,6 +1,6 @@
 body { 
-    font-family: 'Times New Roman' sans-serif;
-    background-color: #f5f5f5;
+    font-family: 'Roboto' sans-serif;
+    background-color: #f4f4f4;
     margin: 0;
     padding: 0;
     color: #333;
@@ -35,12 +35,32 @@ body {
     }
 
     .foto-perfil {
-        width: 150px; /* Ajusta el tamaño de la imagen */
-        height: 150px; /* Asegura que sea un cuadrado */
+        width: 200px; /* Ajusta el tamaño de la imagen */
+        height: 2000px; /* Asegura que sea un cuadrado */
         border-radius: 50%; /* Hace que la imagen sea circular */
         margin-top: 20px; /* Espaciado desde el texto superior */
-        border: 3px solid #007acc; /* Agrega un borde */
+        border: 5px solid transparent;/* Agrega un borde */
+        animation: animar-borde 4s infinite linear; /* Aplica la animación*/
     }
+
+    @keyframes animar-borde{
+        0% { 
+            border-color: #007acc;
+        }
+        25% { 
+            border-color: #00cc44;
+        }
+        50% { 
+            border-color: #ffcc00;
+        }
+        75%{
+            border-color: #ff3300;
+        }
+        100%{
+            border-color: #007acc;
+        }
+    }
+    
 
     section {
         margin: 20px;
