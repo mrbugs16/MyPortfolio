@@ -13,6 +13,14 @@ body {
         text-align: center;
     }
 
+    .foto-perfil {
+        width: 150px; /* Ajusta el tamaño de la imagen */
+        height: 150px; /* Asegura que sea un cuadrado */
+        border-radius: 50%; /* Hace que la imagen sea circular */
+        margin-top: 20px; /* Espaciado desde el texto superior */
+        border: 3px solid #007acc; /* Agrega un borde */
+    }
+
     section {
         margin: 20px;
         padding: 20px;
